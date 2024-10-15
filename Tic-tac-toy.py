@@ -31,7 +31,7 @@ def get_move(player):
 
 def tic_tac_toe():
     board = [[" " for _ in range(3)] for _ in range(3)]
-    players = ["X", "O"]
+    players = ["X", "O"] #[X] is even num , and [O] is odd num
     turn = 0
 
     while True:
